@@ -315,8 +315,217 @@ background-size: 100%;
 
 /* ----------------------- FIM PAGINA DE FRIENDS --------------*/
 
+
+
+
+
+
+
+
 /* ----------------------- INICIO PAGINA DE JOGOS --------------*/
 
+
+.Jogos {
+    margin-left: 32% ;
+    margin-top: 60px;
+
+}
+
+.fa-search{
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+  .titulo_jogos {
+    color: var(--titulo);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#570F65;
+    font-size: 3em; color: var(--titulo);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: -1px -1px #570F65, 1px 1px #570F65
+   
+}
+
+
+
+
+.container  img {
+    width: 70px;
+    height: 107px;
+    
+  
+}
+
+.container {
+    margin-left: 55px ;
+    margin-top: 25px;
+}
+
+
+
+    .a img { 
+      margin-right: 60px;
+      margin-bottom: 20px;
+      
+      
+    }
+
+    .b img { 
+
+        margin-right: 60px;
+        margin-bottom: 20px;
+       
+    }
+    .c img { 
+        margin-right: 60px;
+        margin-bottom: 20px;
+       
+    }
+
+    .a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .b {
+        display: flex;
+        justify-content: center;
+    }
+
+    .c {
+        display: flex;
+        justify-content: center;
+    }
+
+
+/* .container {
+    margin-left: 25%;
+    margin-top: 100px;
+} */
+
+@media(min-width: 800px) {
+
+    .titulo_jogos {
+
+        margin-left: 60px;
+    
+    }
+
+
+    .container img {
+        width: 130px;
+        height: 200px;
+        
+    }
+      
+
+
+    .a {
+
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+
+
+    .b {
+
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+
+    .c {
+
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    a {
+
+        margin-left: 50px;
+    
+    }
+
+    .fa-search {
+
+        color: white;
+        margin-left: 65px;
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media(min-width: 1366px) {
+
+   
+
+    .container img {
+        width: 200px;
+        height: 322px;
+    }
+      
+    .a img {
+        margin-right: 150px;
+        margin-bottom: 26px;
+    }
+    .b img {
+        margin-right: 150px;
+        margin-bottom: 26px;
+    }
+    .c img {
+        margin-right: 150px;
+        margin-bottom: 26px;
+    }
+
+    .a {
+        display: flex;
+        justify-content: center;
+        margin-left: 25%;
+    }
+
+    .b {
+        display: flex;
+        justify-content: center;
+        margin-left: 25%;
+    }
+
+    .c {
+        display: flex;
+        justify-content: center;
+        margin-left: 25%;
+    }
+
+    .titulo_jogos {
+        margin-left: 150px;
+        
+    }
+
+    .fa-search {
+
+        font-size: 20px;
+        margin-left: 133px;
+        margin-bottom: 20px;
+    
+    }
+
+
+
+
+
+}
+
+ 
 /* ----------------------- FIM PAGINA DE JOGOS --------------*/
 
 
