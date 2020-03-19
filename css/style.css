@@ -1,3 +1,10 @@
+:root{
+    --texto: #707070;
+    --textomobile: #0066FE;
+    --titulo: #00FEA1;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -303,9 +310,69 @@ background-size: 100%;
 
 
 
-/* ----------------------- INICIO PAGINA DE CADASTRO --------------*/
+/* ----------------------- INICIO PAGINA DE CADASTRO/LOGIN --------------*/
 
-/* ----------------------- FIM PAGINA DE CADASTRO --------------*/
+.form-cadastro{
+    width: 100%;
+    max-width: 400px;
+    margin: 10em auto;
+    }
+
+
+
+    form h1{
+        color: var(--titulo);
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .titulo h1{
+        padding-bottom: 0em;
+        margin: auto;
+    }
+
+    .campo label{
+        color: var(--texto);
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .campo{
+        display: flex;
+        flex-direction: column;
+        padding: 0.4em;
+        margin-left:2em ;
+    }
+
+    input[type="password"],
+    input[type="email2"],
+    input[type="text"],
+    input[type="checkbox"]
+    select{
+        width: 90%;
+        background-color: rgba(30, 28, 33, 0.678);
+        border: none;
+        outline: none;
+        color: white;
+        border-radius: 2em;
+        height: 3em;
+        padding-left: 36px;
+        border-width: 1px;
+        border-style:solid;
+        border-color:var(--texto);
+    }
+
+    .btn{
+        width: 90%;
+        border-radius: 2em;
+        height: 3em;
+        background-color: #1E1C21;
+        color: var(--texto);
+        font-size: 1em;
+        margin: auto;
+    }
+
+/* ----------------------- FIM PAGINA DE CADASTRO/LOGIN --------------*/
 
 /* ----------------------- INICIO PAGINA DE LOGIN --------------*/
 
@@ -321,7 +388,7 @@ background-size: 100%;
 
 
 
-@media screen and (min-width: 461px){
+@media screen and (min-width: 460px){
 
 .banner .fa-play {
     top: 240px;
@@ -353,13 +420,76 @@ width: 50%;
     width: 100%;
     margin-bottom: 50px;
 }
-/* ----------------------- INICIO PAGINA DE CADASTRO --------------*/
+/* ----------------------- INICIO PAGINA DE CADASTRO e login --------------*/
 
-/* ----------------------- FIM PAGINA DE CADASTRO --------------*/
+body{
+        background-image: url(../img/PlanoFundo.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+.form-cadastro{
+    width: 100%;
+    max-width: 400px;
+    margin: 10em auto;
+    }
 
-/* ----------------------- INICIO PAGINA DE LOGIN --------------*/
 
-/* ----------------------- FIM PAGINA DE LOGIN --------------*/
+
+    form h1{
+        color: var(--titulo);
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 0.6em;
+    }
+
+    .titulo h1{
+        padding-bottom: 0em;
+        margin-left: 0.6em;
+    }
+
+    .campo label{
+        color: var(--texto);
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .campo{
+        display: flex;
+        flex-direction: column;
+        padding: 0.4em;
+        margin-left:2em ;
+    }
+
+    input[type="password"],
+    input[type="email2"],
+    input[type="text"],
+    input[type="checkbox"]
+    select{
+        width: 90%;
+        background-color: rgba(30, 28, 33, 0.678);
+        border: none;
+        outline: none;
+        color: white;
+        border-radius: 2em;
+        height: 3em;
+        padding-left: 36px;
+        border-width: 1px;
+        border-style:solid;
+        border-color:var(--texto);
+    }
+
+    .btn{
+        width: 90%;
+        border-radius: 2em;
+        height: 3em;
+        background-color: #1E1C21;
+        color: var(--texto);
+        font-size: 1em;
+        margin: auto;
+    }
+/* ----------------------- FIM PAGINA DE CADASTRO e login --------------*/
 
 /* ----------------------- INICIO PAGINA DE FRIENDS --------------*/
 
@@ -369,7 +499,7 @@ width: 50%;
 
 /* ----------------------- FIM PAGINA DE JOGOS --------------*/
 
-}
+
 @media screen and (min-width: 801px){
 .menu{
     position: fixed;
@@ -453,13 +583,34 @@ width: 50%;
 .block{
     display: block;
 }
-/* ----------------------- INICIO PAGINA DE CADASTRO --------------*/
+/* ----------------------- INICIO PAGINA DE CADASTRO e login --------------*/
 
-/* ----------------------- FIM PAGINA DE CADASTRO --------------*/
+@media(min-width:800px){
+    .menu img {
+        width: 35%;
+        margin:0 auto
+    }
 
-/* ----------------------- INICIO PAGINA DE LOGIN --------------*/
+    body{
+        background-image: url(../img/PlanoFundo.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
 
-/* ----------------------- FIM PAGINA DE LOGIN --------------*/
+    form h1 {
+        color: var(--titulo);
+        text-align: center;
+        padding-bottom: 0;
+        text-transform: uppercase;
+        margin-left: 0.6em;
+     }
+
+     .btn{
+         margin: auto;
+     }
+
+/* ----------------------- FIM PAGINA DE CADASTRO e login --------------*/
 
 /* ----------------------- INICIO PAGINA DE FRIENDS --------------*/
 
@@ -468,5 +619,3 @@ width: 50%;
 /* ----------------------- INICIO PAGINA DE JOGOS --------------*/
 
 /* ----------------------- FIM PAGINA DE JOGOS --------------*/
-
-}
