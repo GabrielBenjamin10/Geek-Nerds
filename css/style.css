@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+width: 100%;
+height: 100%;
+background-color: black ;
+}
+body h1, h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    color: white;
+    
+}
+/*  --------------- INICIO HEADER-------------------*/
+header{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(24, 24, 24);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.friends img{
+    border-radius: 100%;
+    height: 50px;
+}
+.menu{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(24, 24, 24);
+    box-shadow: 0px 13px 10px rgba(24, 24, 24, 0.5);
+}
+.friends img{
+    width: 60px;
+}
+.logo img{
+    width: 140px;
+}
+.icon .fa-bars{
+    font-size: 2em;
+    color: white;
+}
+.menu #navegar{
+    position: absolute;
+    top: 80px;
+    background-color: rgb(43, 43, 43);
+    width: 100%;
+    right: 0;
+    color: white;
+    display: none;
+    margin-bottom: 90px;
+}
+#navegar a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    margin: 10px;
+}
+.log{
+    display: none;
+}
+.log li{
+    list-style-type: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+.log a {
+    text-decoration: none;
+}
+/*  ---------------FIM STYLE HEADER-------------------*/
+
+/* ----------------- INICIO MAIN ---------------------------*/
+.men2{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(75, 75, 75);
+    display: flex;
+    align-items: center;
+    display: none;
+}
+.men2 ol{
+    width: 80%;
+    height: 30px;
+    padding-left: 140px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    justify-content: space-around;
+}
+
+
+ol a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+.banner{
+    margin-top: 50px;
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+.banner .fa-play{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 30%;
+    height: 30%;
+    font-size: 4em;
+    color: purple;
+    background-position: center;
+}
+
+/* ------------------------ INICIO SECTION NOTICIAS ----------------*/
+.info{
+    width: 100%;
+height: 100%;
+background-image: url(../img/Desktop.jpg);
+background-size: 100%;
+}
+.info .container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.info h1{
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.card{
+    width: 40%;
+}
+.card img{
+    width: 100px;
+}
+.card h2{
+    font-size: 0.9em;
+}
+.card p{
+    margin: 10px;
+    font-size: 0.7em;
+}
+/* ------------------------ FIM SECTION NOTICIAS ----------------*/
+
+/* ------------------------ INICIO SECTION STREAM ----------------*/
+.stream{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    color: white;
+    background-image: url(../img/stream.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.stream h2{
+   padding-top: 30px;
+   margin-bottom: 30px;
+    text-align: center;
+}
+.ctn{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.you{
+    width: 30%;
+    height: 150px;
+    margin: 10px;
+}
+.streamer{
+    width: 100%;
+    height: 75%;
+    border-radius: 100%;
+}
+.streamer img{
+    width: 100%;
+    border-radius: 100%;
+}
+.gamer{
+width: 100%;
+height: 100%;
+
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+.gamer p{
+    font-size: 0.8em;
+
+}
+.ao_vivo{
+    width: 10%;
+    height: 7%;
+    background-color: red;
+    border-radius: 100%;
+    margin-top: 2px;
+}
+
+/* ------------------------ FIM SECTION STREAM ----------------*/
+
+/* ------------------------ INICIO SECTION EQUIPE ----------------*/
+
+.equipe{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+background-image: url(../img/Desktop.jpg);
+background-size: 100%;
+}
+.equipe .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+  .equipe .container h2{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.equipe .container p{
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+.m1{
+    margin-top: 15px;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.m1 img{
+    width: 100%;
+}
+
+/* ------------------------ FIM SECTION EQUIPE ----------------*/
+
+/* ------------------------ INICIO FOOTER ----------------*/
+
+.foot{
+    width: 100%;
+    height: 180px;
+    margin-top: 70px;
+    background-color: rgb(24, 24, 24);
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.foot a{
+    text-decoration: none;
+    text-align: center;
+}
+.foot li{
+    color: white;
+    list-style-type: none;
+    font-size: 1.2em;
+}
+.foot_sociais{
+    width: 20%;
+    height: 30%;
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 40%;
+}
+
+.reser{
+    width: 100%;
+    color: rgb(194, 194, 194);
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 20px;
+}
+.block{
+    display: none;
+}
+/* ------------------------ FIM FOOTER ----------------*/
+
+
+
+/* ----------------------- INICIO PAGINA DE CADASTRO --------------*/
+
+/* ----------------------- FIM PAGINA DE CADASTRO --------------*/
+
+/* ----------------------- INICIO PAGINA DE LOGIN --------------*/
+
+/* ----------------------- FIM PAGINA DE LOGIN --------------*/
+
+/* ----------------------- INICIO PAGINA DE FRIENDS --------------*/
+
+/* ----------------------- FIM PAGINA DE FRIENDS --------------*/
+
+/* ----------------------- INICIO PAGINA DE JOGOS --------------*/
+
+/* ----------------------- FIM PAGINA DE JOGOS --------------*/
+
+
+
+@media screen and (min-width: 461px){
+
+.banner .fa-play {
+    top: 240px;
+    left: 220px;
+}
+.info h1{
+    width: 80%;
+}
+.ctn{
+    padding-left: 130px;
+}
+.you{
+    width: 40%;
+}
+
+.streamer img{
+width: 50%;
+}
+.gamer{
+    width: 40%;
+}
+.ao_vivo{
+    height: 5%;
+}
+.m1 img{
+    width: 85%;
+}
+.m1 p{
+    width: 100%;
+    margin-bottom: 50px;
+}
+/* ----------------------- INICIO PAGINA DE CADASTRO --------------*/
+
+/* ----------------------- FIM PAGINA DE CADASTRO --------------*/
+
+/* ----------------------- INICIO PAGINA DE LOGIN --------------*/
+
+/* ----------------------- FIM PAGINA DE LOGIN --------------*/
+
+/* ----------------------- INICIO PAGINA DE FRIENDS --------------*/
+
+/* ----------------------- FIM PAGINA DE FRIENDS --------------*/
+
+/* ----------------------- INICIO PAGINA DE JOGOS --------------*/
+
+/* ----------------------- FIM PAGINA DE JOGOS --------------*/
+
+}
+
+@media screen and (min-width: 801px){
+.menu{
+    position: fixed;
+    top: 0;
+}
+.log{
+    display: block;
+}
+.men2{
+    margin-top: 100px;
+    display: block;
+}
+.icon{
+    display: none;
+}
+.banner .fa-play{
+    width:80%;
+    top: 80%;
+    left: 50%;
+    font-size: 8em;
+}
+.info h1{
+    width: 100%;
+    font-size: 3em;
+}
+.info .card{
+    width: 20%;
+}
+.info h2{
+    font-size:1.5em;
+}
+.info p{
+    font-size: 1em;
+}
+.card img{
+    width: 100%;
+}
+.stream{
+    width: 100%;
+    height: 100%;
+
+}
+.ctn{
+    width:50%;
+    display: flex;
+
+}
+.you{
+    width: 100%;
+    display: flex;
+    padding-right: 50%;
+}
+.you img {
+    width: 80%;
+}
+.gamer{
+    width: 100%;
+    padding-top: 10%;
+}
+.gamer p {
+    font-size: 1.3em;
+
+}
+.ao_vivo{
+    width: 4%;
+    margin-top: 10px;
+}
+
+.equipe h2{
+    font-size: 2.6em;
+} 
+.equipe p{
+     font-size: 1.5em ;
+}
+.m1{
+    width: 25%;
+}
+.m1 p{
+    font-size: 1.5em;
+}
+.block{
+    display: block;
+}
+/* ----------------------- INICIO PAGINA DE CADASTRO --------------*/
+
+/* ----------------------- FIM PAGINA DE CADASTRO --------------*/
+
+/* ----------------------- INICIO PAGINA DE LOGIN --------------*/
+
+/* ----------------------- FIM PAGINA DE LOGIN --------------*/
+
+/* ----------------------- INICIO PAGINA DE FRIENDS --------------*/
+
+/* ----------------------- FIM PAGINA DE FRIENDS --------------*/
+
+/* ----------------------- INICIO PAGINA DE JOGOS --------------*/
+
+/* ----------------------- FIM PAGINA DE JOGOS --------------*/
+
+}
