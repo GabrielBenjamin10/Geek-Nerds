@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
 
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <div class="menu">
@@ -15,12 +17,14 @@
                 <a href="">
                     <img src="img/LogoGeek.png" alt="Link amigos playing">
                 </a>
-            </div><!--Fim DIV friends-->
+            </div>
+            <!--Fim DIV friends-->
             <div class="logo">
                 <a href="home.html">
                     <img src="img/nerds.png" alt="">
                 </a>
-            </div><!--Fim DIV logo-->
+            </div>
+            <!--Fim DIV logo-->
             <div class="icon">
                 <a href="#" onclick="botaoMenu()">
                     <i class="fa fa-bars"></i>
@@ -29,48 +33,93 @@
                     <ul>
                         <a href="login.html">
                             <li>Login</li>
-                         </a>
-                          <a href="cadastro.html">
+                        </a>
+                        <a href="cadastro.html">
                             <li>Cadastre-se</li>
-                         </a>
-                     <a href="#">
-                       <li>Jogos</li>
-                    </a>
-                     <a href="#">
-                       <li>Ao Vivo</li>
-                    </a>
-                     <a href="#">
-                       <li>Players</li>
-                    </a>
-                     <a href="#">
-                       <li>Sobre</li>
-                    </a>
-                     <a href="#">
-                       <li>Suporte</li>
-                    </a>
+                        </a>
+                        <a href="#">
+                            <li>Jogos</li>
+                        </a>
+                        <a href="#">
+                            <li>Ao Vivo</li>
+                        </a>
+                        <a href="#">
+                            <li>Players</li>
+                        </a>
+                        <a href="#">
+                            <li>Sobre</li>
+                        </a>
+                        <a href="#">
+                            <li>Suporte</li>
+                        </a>
 
                     </ul>
                 </nav>
-            </div><!--Fim DIV icon-->
-                <ul class="log">
-                    <a href="login.html">
-                        <li>Login</li>
-                    </a>
-                </ul>
-        </div><!--Fim DIV menu-->
+            </div>
+            <!--Fim DIV icon-->
+            <ul class="log">
+                <a href="login.html">
+                    <li>Login</li>
+                </a>
+            </ul>
+        </div>
+        <!--Fim DIV menu-->
 
     </header>
+
     <main>
+
         <div class="men2">
             <ol>
-                <a href="cadastro.html"><li>Cadastre-se</li></a>
-                <a href="jogos.html"><li>Jogos</li></a>
-                <a href="#"><li>Ao Vivo</li></a>
-                <a href="friends.html"><li>Players</li></a>
-                <a href="#"><li>Sobre</li></a>
-                <a href="#"><li>Suporte</li></a>
+                <a href="cadastro.html">
+                    <li>Cadastre-se</li>
+                </a>
+                <a href="jogos.html">
+                    <li>Jogos</li>
+                </a>
+                <a href="#">
+                    <li>Ao Vivo</li>
+                </a>
+                <a href="friends.html">
+                    <li>Players</li>
+                </a>
+                <a href="#">
+                    <li>Sobre</li>
+                </a>
+                <a href="#">
+                    <li>Suporte</li>
+                </a>
             </ol>
         </div>
+
+
+        <form action="" method="GET" class="form-cadastro">
+
+            <div>
+                <h1>
+                    Bem Vindo de Volta!
+                </h1>
+            </div>
+
+            <div class="login">
+
+                <div class="campo">
+                    <label for="email2">Email do Jogador</label>
+                    <input type="email2" name="emailjogador" id="email2">
+                </div>
+
+                <div class="campo">
+                    <label for="senha">Senha do Jogador</label>
+                    <input type="password" name="senhajogador" id="senha">
+                </div>
+
+                <div class="campo">
+                    <button type="submit" class="btn">Entrar</button>
+                </div>
+            </div>
+        </form>
+
+
         <footer>
             <div class="block">
 
@@ -94,22 +143,26 @@
                     </div><!-- fim DIV foot_sociais-->
                     <div class="reser">
                         <p>Todos os Direitos Reservados - 2020</p>
-                    </div><!--fim DIV reser-->
-                </div><!--fim DIV foot-->
-            </div><!--fim DIV block-->
-            </footer>
-        </main>
-        <script>
+                    </div>
+                    <!--fim DIV reser-->
+                </div>
+                <!--fim DIV foot-->
+            </div>
+            <!--fim DIV block-->
+        </footer>
+    </main>
+    <script>
 
-        function botaoMenu(){
+        function botaoMenu() {
 
-        var m = document.getElementById("navegar");
-        if(m.style.display == "block"){
-            m.style.display = "none";
-        }else{
-            m.style.display = "block"
-        }
+            var m = document.getElementById("navegar");
+            if (m.style.display == "block") {
+                m.style.display = "none";
+            } else {
+                m.style.display = "block"
+            }
         }
     </script>
-    </body>
-    </html>
+</body>
+
+</html>
