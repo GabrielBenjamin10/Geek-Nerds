@@ -9,6 +9,8 @@
     margin: 0;
     padding: 0;
 }
+
+
 body{
 width: 100%;
 height: 100%;
@@ -29,7 +31,7 @@ body h1, h2{
 }
 /*  --------------- INICIO HEADER-------------------*/
 header{
-    width: 100%;
+    width: 1366px;
     height: 100%;
     background-color:rgb(24, 24, 24);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -39,7 +41,7 @@ header{
     height: 50px;
 }
 .menu{
-    width: 100%;
+    width: 1366px;
     height: 80px;
     display: flex;
     justify-content: space-around;
@@ -83,6 +85,7 @@ li{
     color: white;
     text-transform: uppercase;
     font-size: 1.4em;
+    margin-bottom: 30px;
 }
 .log a {
     text-decoration: none;
@@ -399,7 +402,7 @@ background-size: 100%;
 }
 
 .container_amigos{
-    width: 90%;
+    width: 1300PX;
     height: 100%;
     display: flex;
     align-items: center;
@@ -408,11 +411,11 @@ background-size: 100%;
 }
 
 .container_amigos img{
-    width: 6em;
+    width: 100px;
 }
 
 .card_amigos{
-    width: 100%;
+    width: 1366px;
     height: 5em;
     background-color: white;
     border: 2px solid #999999;
@@ -532,14 +535,14 @@ span{
 
 
 
-.container  img {
+.container_jogos  img {
     width: 70px;
     height: 107px;
     
   
 }
 
-.container {
+.container_jogos {
     margin-left: 55px ;
     margin-top: 25px;
 }
@@ -595,7 +598,7 @@ span{
     }
 
 
-    .container img {
+    .container_jogos img {
         width: 130px;
         height: 200px;
         
@@ -648,40 +651,40 @@ span{
 
    
 
-    .container img {
+    .container_jogos img {
         width: 200px;
         height: 322px;
     }
       
     .a img {
-        margin-right: 150px;
+        margin-right: 100px;
         margin-bottom: 26px;
     }
     .b img {
-        margin-right: 150px;
+        margin-right: 100px;
         margin-bottom: 26px;
     }
     .c img {
-        margin-right: 150px;
+        margin-right: 100px;
         margin-bottom: 26px;
     }
 
     .a {
         display: flex;
         justify-content: center;
-        margin-left: 25%;
+        margin-left: 2%;
     }
 
     .b {
         display: flex;
         justify-content: center;
-        margin-left: 25%;
+        margin-left: 2%;
     }
 
     .c {
         display: flex;
         justify-content: center;
-        margin-left: 25%;
+        margin-left: 2%;
     }
 
     .titulo_jogos {
@@ -697,7 +700,7 @@ span{
     
     }
 
-
+    
 
 }
 
@@ -738,15 +741,16 @@ width: 50%;
     width: 100%;
     margin-bottom: 50px;
 }
+}
 /* ----------------------- INICIO PAGINA DE CADASTRO e login --------------*/
 
 body{
-        background-image: url(../img/PlanoFundo.jpg);
+        background-image: url(../img/Desktop\ -\ Copia.jpg);
         background-repeat: no-repeat;
-        background-position: center;
+        /* background-position: center; */
         background-size: cover;
     }
-}
+
 .form-cadastro{
     width: 100%;
     max-width: 400px;
@@ -834,7 +838,7 @@ body{
     display: none;
 }
 .banner .fa-play{
-    width:80%;
+    /* width:80%; */
     top: 80%;
     left: 50%;
     font-size: 8em;
@@ -901,11 +905,13 @@ body{
 .block{
     display: block;
 }
+
+}
 /* ----------------------- INICIO PAGINA DE CADASTRO e login --------------*/
 
 @media(min-width:800px){
     .menu img {
-        width: 35%;
+        /* width: 35%; */
         margin:0 auto
     }
 
@@ -913,7 +919,7 @@ body{
         background-image: url(../img/PlanoFundo.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        /* background-size: cover; */
     }
 
     form h1 {
@@ -928,6 +934,7 @@ body{
          margin: auto;
      }
 
+    }
 /* ----------------------- FIM PAGINA DE CADASTRO e login --------------*/
 
 /* ----------------------- INICIO PAGINA DE FRIENDS --------------*/
@@ -935,5 +942,3 @@ body{
 /* ----------------------- FIM PAGINA DE FRIENDS --------------*/
 
 /* ----------------------- INICIO PAGINA DE JOGOS --------------*/
-
-/* ----------------------- FIM PAGINA DE JOGOS --------------*/
