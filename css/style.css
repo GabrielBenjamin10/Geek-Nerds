@@ -120,7 +120,6 @@ ol a{
 
 
 
-
 .banner{
     margin-top: 50px;
     width: 100%;
@@ -435,6 +434,8 @@ span{
 
 
 @media(min-width: 800px) {
+
+  
 
 .amigos{
     margin-top: 10em;
