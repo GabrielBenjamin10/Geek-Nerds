@@ -14,6 +14,9 @@ width: 100%;
 height: 100%;
 background-color: black ;
 }
+ul{
+    list-style-type: none;
+}
 body h1, h2{
     font-family: 'Times New Roman', Times, serif;
 }
@@ -374,11 +377,60 @@ background-size: 100%;
 
 /* ----------------------- FIM PAGINA DE CADASTRO/LOGIN --------------*/
 
-/* ----------------------- INICIO PAGINA DE LOGIN --------------*/
-
-/* ----------------------- FIM PAGINA DE LOGIN --------------*/
 
 /* ----------------------- INICIO PAGINA DE FRIENDS --------------*/
+
+.amigos{
+    width: 100%;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_amigos{
+    color: var(--titulo);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-stroke-width: 2px;
+    text-transform: uppercase;
+    -webkit-text-stroke-color: #570F65;
+    font-size: 3em;
+    text-shadow: -1px -1px #570F65, 1px 1px #570F65
+}
+
+.container_amigos{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.container_amigos img{
+    width: 6em;
+}
+
+.card_amigos{
+    width: 100%;
+    height: 5em;
+    background-color: white;
+    border: 2px solid #999999;
+    opacity: 0.7;
+}
+
+.sessao_amigos{
+    margin-top: 4.2em;
+}
+
+
+.artigo_amigos{
+    padding-bottom: 0.5em;
+}
+
+span{
+    text-transform: uppercase;
+}
 
 /* ----------------------- FIM PAGINA DE FRIENDS --------------*/
 
