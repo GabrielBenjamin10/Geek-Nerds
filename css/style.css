@@ -432,6 +432,65 @@ span{
     text-transform: uppercase;
 }
 
+
+
+@media(min-width: 800px) {
+
+.amigos{
+    margin-top: 10em;
+}
+
+.sessao_amigos{
+    margin-top: 7.5em;
+}   
+
+.men2 ol{
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.men2 li{
+    width: 2em;
+    
+}
+
+.men2 {
+    height: 5em;
+    display: flex;
+    align-items: center;
+}
+
+.sessao_amigos{
+    margin: 0;
+}
+
+.amigos{
+    margin: 0;
+}
+
+}
+
+@media(min-width:1366px){
+
+    .amigos{
+        margin: 0;
+    }
+
+    .sessao_amigos{
+        margin: 0;
+    }
+
+    .men2 li{
+        width: 5em;
+    }
+
+    .men2 ol{
+        justify-content: flex-start;
+    }
+    .men2{
+        height: 30px;
+    }
+}
 /* ----------------------- FIM PAGINA DE FRIENDS --------------*/
 
 
@@ -637,8 +696,6 @@ span{
         margin-bottom: 20px;
     
     }
-
-
 
 
 
